@@ -1,6 +1,5 @@
 # Object Detection
 
-cvzone==1.5.6
 ultralytics==8.0.203
 hydra-core>=1.2.0
 matplotlib>=3.2.2
