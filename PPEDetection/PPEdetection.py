@@ -14,10 +14,10 @@ def putTextRect(img, text, pos, scale=3, thickness=3, colorT=(255, 255, 255),col
     return img, [x1, y2, x2, y1]
 
 
-# cap = cv2.VideoCapture(0)  # For Webcam
-# cap.set(3, 1280)
-# cap.set(4, 720)
-cap = cv2.VideoCapture("construction site.mp4")
+cap = cv2.VideoCapture(0)  # For Webcam
+cap.set(3, 1280)
+cap.set(4, 720)
+# cap = cv2.VideoCapture("construction site.mp4")
 
 model = YOLO("best (1).pt")
 # model = YOLO("ppe.pt")
